@@ -9,6 +9,4 @@ keycloak_openId = KeycloakOpenID(
     client_secret_key="ePLbGH6LZOWzzDB7CNNVJDoIl2LFirbR"
 )
 
-config_well_known = keycloak_openId.well_known()
 
-print(config_well_known)
